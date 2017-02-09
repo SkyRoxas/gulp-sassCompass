@@ -2,16 +2,15 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
-    autoprefixer = require('gulp-autoprefixer'),
+    autoprefixer = require('gulp-autoprefixer');
 
 
-//gulp sass
-var sass_Config = {}
-    //autoprefixer config
-var autoprefixer_Config = {
+
+var sass_Config = {},
+    autoprefixer_Config = {
         browsers: ['last 2 versions'],
         cascade: false
-    }
+    };
 
 
 //for sass to css
